@@ -1,0 +1,6 @@
+/*This is the backgrond color. We define it here and reference it in
+game.html.*/
+body 
+{
+    background-color: black;
+}

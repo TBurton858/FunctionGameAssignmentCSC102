@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Function Demo</title>
+    <script src = "code.js"></script>
+    <link href = "main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!--From left to right: Color value for the text, id of the text, and 
+        what text is displayed-->
+        <h1 style = color:aliceblue id = "heading">
+            Welcome to my Rigged Casino</h1>
+        <!--The following buttons have the same set of instructions with
+        different values. From left to right: Define this button requires
+        a click to activate, when clicked play function, and then the
+        display text for the button-->
+        <button onclick = "canPullCard();">Grab Card</button>
+        <button onclick = "stand();">Stand</button>
+        <button onclick = "reset();">Reset</button>
+    </header>
+    <!--The following texts follow the same instructions with different values.
+    From left to right: Make a break to move to the next line, set the color
+    of the text, set the id of the text, and set the default value of the text-->
+    <br>
+    <h2 style = color:rgb(0,98,255) id = "playerCard">Player Value: 0</h2>
+    <br>
+    <h2 style = color:yellow id = "totalPlayerAces">Total Aces: 0</h2>
+    <br>
+    <h2 style = color:rgb(96,255,96) id = "gameStatus">In Play</h2>
+    <br>
+    <h2 style = color:red id = "dealerCard">Dealer Value: 0</h2>
+    <br>
+    <h2 style = color:blueviolet id = "totalDealerAces">Dealer Aces: 0</h2>
+    <br>
+    <h2 style = color:aqua id = "totalPlayerWins">Player Wins: 0</h2>
+    <br>
+    <h2 style = color:blanchedalmond id = "totalDealerWins">Dealer Wins: 0</h2>
+</body>
+</html>
